@@ -9,6 +9,6 @@
     // return list[0]
   // )
 // }
-export const list=["ali","ahmad","samad"]
+export let list=["ali","ahmad","samad"]
 
 // export default Dat

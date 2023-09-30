@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 // import { useState } from 'react';
-import Data from "./Data";
+// import Data from "./Data";
 
 
 import { useEffect, useState } from "react";
@@ -207,7 +207,7 @@ function App(){
   return(
     <>
   
-    <Data/>
+    {/* <Data/> */}
     <button onClick={()=>{setValue(!value)}}>click to toggle</button>
     {value&&<Newcomp/>}
     </>
