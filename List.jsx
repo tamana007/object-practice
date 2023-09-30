@@ -6,7 +6,7 @@ import { list } from './Data'
 function List() {
  list.map((item)=>{
   return(
-    <h2>item</h2>
+    <div>{item}</div>
   )
  })
 }

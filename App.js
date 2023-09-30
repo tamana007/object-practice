@@ -5,6 +5,7 @@
 
 
 import { useEffect, useState } from "react";
+import List from "./List";
 
 // function App() {
 // const[name,setName]=useState('ali');
@@ -198,7 +199,7 @@ import { useEffect, useState } from "react";
 //   }
 
 function App(){
-  const[value,setValue]=useState(false);
+  // const[value,setValue]=useState(false);
 
   // function toggle(){
   //   setValue(true);
@@ -206,18 +207,22 @@ function App(){
   
   return(
     <>
+    <h2>Javascript</h2>
+    <List/>
+    
   
-    {/* <Data/> */}
+    {/* <Data/>
     <button onClick={()=>{setValue(!value)}}>click to toggle</button>
-    {value&&<Newcomp/>}
+    {value&&<Newcomp/>} */}
+    
     </>
   )
 }
-function Newcomp(){
-  // const [init,setInit]=useState('Initial toggle')
-  // useEffect(()=>{
-  //   setInit('Initial toggle')
-  // },[])
-  return(<h2>new component</h2>)
-}
+// function Newcomp(){
+//   // const [init,setInit]=useState('Initial toggle')
+//   // useEffect(()=>{
+//   //   setInit('Initial toggle')
+//   // },[])
+//   return(<h2>new component</h2>)
+
 export default App;
