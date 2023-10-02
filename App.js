@@ -218,11 +218,6 @@ function App(){
     </>
   )
 }
-// function Newcomp(){
-//   // const [init,setInit]=useState('Initial toggle')
-//   // useEffect(()=>{
-//   //   setInit('Initial toggle')
-//   // },[])
-//   return(<h2>new component</h2>)
+
 
 export default App;

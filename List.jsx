@@ -1,14 +1,17 @@
-import React from 'react'
+import React from "react";
 // import Data, { list } from './Data'
-import { list } from './Data'
+import { list } from "./Data";
 // import {list} from './Data'
+console.log(list);
 
 function List() {
- list.map((item)=>{
-  return(
-    <div>{item}</div>
-  )
- })
+  return (
+    <div>
+      {list.map((item) => {
+        return <div>{item}</div>;
+      })}
+    </div>
+  );
 }
 
-export default List
+export default List;
